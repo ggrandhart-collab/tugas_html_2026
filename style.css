@@ -1,0 +1,118 @@
+body,
+html {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+header {
+    background-color: rgba(163, 87, 87, 0.7);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    position: fixed;
+    color: white;
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-left: 20px;
+}
+.ability {
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 10px;
+    width: 225px;
+    text-align:center;
+    padding: 20px;
+    margin-top: 50px;
+}
+.ability > ul{
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.wraper {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 20;
+    /*flex-wrap:wrap;*/
+}
+.Bg-1 {
+    background-image: url("https://i.scdn.co/image/ab6761610000e5eb7acc6478226bf706af8aedc3");
+}
+
+.content{
+
+  background-color: rgb(0, 0, 0, 0.7);
+  padding: 40px;
+  border-radius: 8px;
+  height:auto;
+  width: 65%;
+  color:white;
+  /* border: 2px solid blue; */
+  text-align: center;
+}
+.content > img {
+  width:  200px;  
+  height: 200PX;
+  border-radius: 100px; 
+  object-fit: cover; 
+}
+.parallax{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+nav > a {
+    margin-right: 25px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin-left: 10px;}
+    footer{
+        background-color:rgb(0, 0, 0, 0.7);
+        color: white;
+        padding: 1rem;
+        text-align: center;
+        margin-top: 10px;
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+    }
+.form-control{
+    display:flex;
+    flex-direction: column;
+    width:50%
+}
+input[type="email"]{
+    height: 25px;
+    border-radius: 5px;
+}
+textarea{
+    height: 60px;
+
+}
+button[type="submit"]{
+    height:25px;
+    border-radius: 5px;
+    background-color: rgb(122, 122, 223);
+    color:white
+}
+.contact-us {
+    margin-left: 20px;
+}
